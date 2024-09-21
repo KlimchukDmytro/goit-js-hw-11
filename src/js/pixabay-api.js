@@ -13,7 +13,6 @@ export function fetchImages(query, page = 1) {
   return fetch(url)
     .then(response => {
       if (!response.ok) {
-        // Якщо відповідь не є успішною, викидаємо помилку
         throw new Error('Error fetching images');
       }
       return response.json();
