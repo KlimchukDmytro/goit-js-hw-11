@@ -45,12 +45,11 @@ function onSearch(event) {
     .finally(() => {
       hideLoader();
     });
-  
 }
-iziToast.settings({
-  position: 'topRight' 
-});
 
+iziToast.settings({
+  position: 'topRight'
+});
 
 function showLoader() {
   loader.classList.remove('hidden');

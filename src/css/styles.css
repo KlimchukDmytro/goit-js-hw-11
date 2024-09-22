@@ -8,13 +8,21 @@
 @import url('./reset.css');
 
 
+.hidden {
+  display: none;
+}
+.loader{
+  justify-content: center;
+  align-items: center;
+}
+
 .iziToast {
   top: 10px;
   left: 10px;
   position: fixed;
 }
 
-.search-form{
+.search-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +35,6 @@
   width: 272px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
   color: #808080;
   border-radius: 4px;
   box-sizing: border-box;
@@ -47,10 +53,7 @@ button {
 
 button:hover {
   background-color: #6C8CFF;
-  color: #fff;
 }
-
-
 
 .gallery {
   display: flex;
@@ -64,16 +67,13 @@ button:hover {
   border: 2px solid #111;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .info {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 20px;
   padding-top: 4px;
-  padding-bottom: 4px;
 }
 
 .info p {
@@ -85,22 +85,15 @@ button:hover {
 .info b {
   display: block;
 }
-  p{
+
+p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 200%;
-  letter-spacing: 0.04em;
   color: #2e2f42;
 }
-b{
+
+b {
   font-weight: 600;
   font-size: 12px;
-  line-height: 133%;
-  letter-spacing: 0.04em;
   color: #2e2f42;
 }
-
-
-
-
-
